@@ -1,0 +1,33 @@
+.pokedex-pokecards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-title{
+    font-family: 'Arvo', serif;
+    margin-bottom: 10px;
+}
+
+.pokedex-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.pokedex-card{
+    width: 25%;
+    min-width: 200px;
+}
+
+.pokedex-winner{
+    color: green;
+}
+
+.pokedex-loser{
+    color: red;
+}
+
+.pokedex-tie{
+    color: gray;
+}
